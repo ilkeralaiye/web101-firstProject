@@ -1,0 +1,178 @@
+html, body { margin: 0; padding: 0; }
+.body-section { font-family: 'Inter', sans-serif; }
+.header { color: #08735a; }
+
+.first-part {
+    color: lightslategray;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    min-height: 200px;
+    height: 300px;
+}
+
+.hero-section { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+
+.profilepic {
+    border-radius: 50%;
+    margin-top: 50px;
+    width: 150px;
+}
+
+.about {
+    text-align: center;
+    font-size: 12px;
+    max-width: 500px;
+    color: darkgray;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    width: 60%;
+    margin: 40px auto;
+    background: linear-gradient(to right, #08735a, rgba(77, 240, 234, 1));
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color:darkgray;
+    text-align: center;
+}
+
+.egelogo {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.experience-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color:darkgray;
+}
+
+.skill-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color:darkgray;
+}
+
+.certification-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color:darkgray;
+}
+
+.footer-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    color:darkgray;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #08735a;
+    color: white;
+    padding: 4px 12px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+    background-color: rgba(77, 240, 234, 1);
+    color: #000;
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.footer { margin-top:20px; }
+
+@media (max-width: 600px) {
+  .body-section {
+    font-size: 12px;
+  }
+
+  .hero-section,
+  .education-section,
+  .experience-section,
+  .skill-section,
+  .certification-section,
+  .footer-section {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .profilepic {
+    width: 120px;
+    margin-top: 30px;
+  }
+
+  .about {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  hr {
+    width: 90%;
+    margin: 30px auto;
+  }
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color:darkgray;
+    text-align: center;
+}
+
+.gradient-background {  
+    background: #08735a;
+    background: linear-gradient(130deg, rgba(8, 115, 90, 1) 5%, rgba(38, 191, 148, 1) 40%, rgba(77, 240, 234, 1) 90%);
+    animation: gradient-animation 3s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
